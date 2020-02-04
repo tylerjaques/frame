@@ -1,6 +1,6 @@
 html, body {
     background-color: #1B2631;
-    height: 100%
+    height: 100%;
 }
 
 #overlay {
@@ -14,6 +14,8 @@ html, body {
 
 }
 
+
+
 @media only screen 
     and (min-device-width: 375px) 
     and (max-device-width: 667px) 
@@ -24,6 +26,12 @@ html, body {
         {
             top: -373px;
             left: 228px;  
+        }
+
+        .selecter {
+            bottom: 120px;
+        
+            position: relative;
         }
       
     }
