@@ -3,18 +3,27 @@ html, body {
     height: 100%
 }
 
-.bg {
-    right: 50%;
-    height: auto;
-    position: absolute;
-}
-
 #overlay {
     width: 86px;
     height: 71px;
-    top: 129px;
-    left:-148px;
+    top: -370px;
+    left: 228px;
     transform: skewX(1deg) rotateY(25deg) rotateX(-5deg) rotateZ(3deg);
 
-    position: relative;
+    position: relative;  
+
 }
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) 
+    { 
+        #overlay
+        {
+            top: -373px;
+            left: 228px;  
+        }
+      
+    }
